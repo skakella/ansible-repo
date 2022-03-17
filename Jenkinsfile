@@ -12,7 +12,7 @@ pipeline {
       {
          steps
         {
-        echo 'Testing is done'
+        echo 'Testing is done now'
         }
       }
     
