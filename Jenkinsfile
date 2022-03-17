@@ -12,7 +12,7 @@ pipeline {
       {
          steps
         {
-        echo 'Testing is done now'
+        echo 'Let us test multibranch pipeline with a web hook'
         
         }
       }
