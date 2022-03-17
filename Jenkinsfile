@@ -4,7 +4,7 @@ pipeline {
     
     stage('Git-Checkout') {
       steps {
-        git(url: 'https://github.com/skakella/ansible-repo.git', branch: 'main')
+        git(url: 'https://github.com/skakella/ansible-repo.git', branch: 'dev')
       }
     }
     
@@ -12,7 +12,7 @@ pipeline {
       {
          steps
         {
-        echo 'Testing is done now'
+        echo 'I am from Dev branch'
         
         }
       }
