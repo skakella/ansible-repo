@@ -13,6 +13,7 @@ pipeline {
          steps
         {
         echo 'Testing is done now'
+        echo 'Added new line'
         }
       }
     
